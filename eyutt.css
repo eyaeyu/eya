@@ -1,0 +1,340 @@
+nav {
+    color: white;
+    display: inline-block;
+  }
+  h1{
+    color: white;
+  }
+  nav ul {
+    color: white;
+    list-style: none;
+  }
+  
+  nav ul li {
+    color: white;
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+    text-align: right;
+  }
+  
+  nav ul li a:hover {
+    color: white;
+    background-color: #555;
+  }
+
+body{
+    background-color: black;
+}
+form label {
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .pp img{
+   
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 5px solid black;
+    margin-top: 0px;
+    margin-right: 80px;
+  }
+  .moveme{
+    
+    margin-left: 100px;
+    color: white;
+    padding-left: 20px;
+    font-size: 30px;
+    
+  }
+  #about{
+    background-image: url(hb.png);
+    
+   
+  }
+  .sid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  form input,
+  form textarea {
+    color: white;
+    border: 1px solid #ccc;
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  
+
+header {
+    color: white;
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+  
+  header h1 {
+    color: white;
+    font-size: 36px;
+    margin: 0;
+  }
+  .mej{
+    text-align: center;
+  }
+  .hea{
+    color: white;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+    text-align: right;
+  }
+  .foo{
+    color: white;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin-left: 0px;
+  }
+
+  *pic_name{
+    display: flex;
+    place-content: space-between;
+  }
+
+  
+    #projects{
+      background-image: url(bkg.png);
+    }
+
+    
+    
+
+
+  .eh:hover{
+  
+    box-shadow: 4px 5px 40px white;
+  }
+  .define {
+    width: 33.33%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: white;
+    margin-top: 0px;
+    margin-bottom: 0;
+    color: white;
+    float: left;
+    
+  }
+  #project{
+    background-image: url(bkg.png);
+  }
+
+ .pi{
+  width: 465px;
+  height: 309px; 
+  float: left;
+ }
+ 
+ .flex-container {
+  margin-top: 0px;
+  display: flex;
+gap: 100px;
+
+  
+}
+
+.flex-item {
+ 
+  height: 350px;
+  margin-right: 10px;
+  border: solid 5px white;
+  border-radius: 20px;
+  font-size: 16px;
+   color: white;
+  width: 400px;
+  height: 500px;
+  
+}
+.flex-item img{
+  width: 400px;
+  border-radius: 15px;
+}
+.hi{
+  display: none;
+}
+@media screen and (max-width:375px) {
+
+  .hi{
+    display: block;
+    
+    height: 70px; 
+    width: 70px; 
+    
+  }
+  ul{
+    display: none;
+  }
+
+  .flex-item{
+      
+      
+    border-radius: 5px;
+    height: 400px;
+    width:200px ;
+    border: solid 5px white;
+    border-radius: 20px;
+    font-size: 10px;
+    color: blue;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-left: 0px;
+    margin-right: 0px;
+   
+    
+    
+    
+     }
+     .flex-item img{
+      width: 200px;
+      height: 200px;
+      border-radius: 15px;
+    }
+    .flex-container {
+      margin-top: 2px;
+      flex-direction: column;
+    
+    flex-direction: column;
+    
+      
+    }
+    @media screen and (max-width:1px) {
+
+      .hi{
+        display: block;
+        
+        height: 70px; 
+        width: 70px; 
+        
+      }
+      ul{
+        display: none;
+      }
+      
+        .flex-item{
+        
+        
+        border-radius: 5px;
+        
+        
+        border: solid 5px white;
+        border-radius: 20px;
+        font-size: 10px;
+        color: blue;
+        flex-direction: column;
+        flex-grow: 1;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 170px;
+        height: 370px;
+        
+        
+        
+         }
+         .flex-container img{
+          width: 75px;
+          border-radius: 15px;
+        }
+        .flex-container {
+          margin-top: 2px;
+          
+        
+        flex-direction: column;
+        
+          
+        }
+        .pp img{
+       
+          width: 250px;
+          height: 250px;
+          border-radius: 50%;
+          border: 5px solid black;
+          margin-top: 0px;
+          margin-right: 400px;
+          text-align: left;
+        }
+        .moveme{
+        
+          margin-left: 500px;
+          color: white;
+          padding-left: 25px;
+          font-size: 17px;
+          
+        }
+        .he{
+          width: 70px;
+          height: 70px;
+          margin-right: 0px;
+    
+        }
+      }
+    
+        @media screen and (max-width:652px)
+        {
+             .flex-item img{
+              width: 100px;
+              border-radius: 15px;
+              margin-left: 0px;
+        margin-right: 0px;
+            }
+            .flex-container {
+              margin-top: 2px;
+              
+            
+            flex-direction: column;
+            
+              
+            }
+          }
+        }
+        @media screen and (Max-width:700px) {
+          .moveme{
+        
+            margin-left: 500px;
+            color: white;
+            padding-left: 25px;
+            font-size: 17px;}
+            .flex-container {
+              margin-top: 2px;
+              
+            
+            flex-direction: column;
+            
+              
+            }
+
+            @media screen and (Max-width:375px) {
+              .moveme{
+            
+                margin-left: 500px;
+                color: white;
+                padding-left: 25px;
+                font-size: 17px;}
+            }
+            .flex-container {
+              margin-top: 2px;
+              
+            
+            flex-direction: column;
+            
+              
+            }
+        }
